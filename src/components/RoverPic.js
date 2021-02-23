@@ -16,8 +16,8 @@ const RoverPic = ({photo}) => {
         <>
         <div className="photo details">
             
-            <p><b>Photo</b>{photo}</p>
-            <img src={photo.image_src} height = "150"/>
+            <p><b>Photo: </b>{photo.camera.full_name}</p>
+            <p><b>Image: </b></p><img src={photo.img_src} height = "150"/>
 
         </div>
         </>
